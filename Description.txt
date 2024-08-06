@@ -1,0 +1,29 @@
+FormBuilder Live Preview is a dynamic web application that allows users to create and customize forms with real-time visual feedback. This project provides an intuitive interface for editing form attributes and instantly viewing the changes in a live preview container. The user-friendly design and functionality make it an ideal tool for creating forms, surveys, and questionnaires similar to Google Forms.
+
+Key Features
+Dynamic Form Editor:
+
+Form Title & Description: Users can input a title and description for the form. Changes are reflected live in the preview container.
+Background Color Customization: Allows selection of the form's background color, instantly updating the preview.
+Font Color Customization: Users can change the font color for the title, description, and labels of the form fields. The selected color is immediately applied in the preview.
+Input Fields Customization:
+
+Toggleable Fields: The editor includes checkboxes for adding common form fields such as First Name, Last Name, Contact Info (number only), and Mail ID. These fields can be toggled on or off, and they appear in the preview as soon as they are selected.
+Input Field Styling: Input fields are styled to resemble Google Forms, providing a clean and familiar user experience.
+Real-Time Live Preview:
+
+The preview container reflects all changes made in the form editor without needing an "Apply" button. This immediate feedback helps users visualize the final form as they make adjustments.
+Responsive Design:
+
+The application layout is responsive, ensuring a consistent experience across different devices and screen sizes. Both the form editor and preview container are adaptable and user-friendly on desktops, tablets, and mobile devices.
+Technologies Used
+HTML/CSS: For structuring the layout and styling the components.
+JavaScript: For handling real-time updates and synchronizing the form editor with the live preview.
+Usage
+This project is perfect for developers and designers looking to create customizable forms with an immediate visual representation of changes. It can be used as a standalone tool or integrated into larger web applications where form customization is needed.
+
+Future Enhancements
+Field Validation: Adding client-side validation for different types of fields.
+Additional Field Types: Incorporating more form field options like dropdowns, radio buttons, etc.
+Template Saving: Allowing users to save and load form templates for reuse.
+FormBuilder Live Preview is an open-source project, welcoming contributions and feedback to enhance functionality and usability. Feel free to explore the code, report issues, and contribute to its development!

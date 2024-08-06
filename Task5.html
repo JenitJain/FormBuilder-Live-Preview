@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Task5.css">
+  <title>Form Preview</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Container 1: Preview -->
+    <div id="preview-container">
+      <h1 id="preview-title">Form Title</h1>
+      <p id="preview-description">Form description...</p>
+      <div id="preview-inputs">
+        <!-- Dynamic inputs will appear here -->
+      </div>
+    </div>
+
+    <!-- Container 2: Form -->
+    <div id="form-container">
+      <form id="form-editor">
+        <div class="form-group">
+          <label for="form-title">Title:</label>
+          <input type="text" id="form-title" placeholder="Enter form title">
+        </div>
+
+        <div class="form-group">
+          <label for="form-description">Description:</label>
+          <textarea id="form-description" placeholder="Enter form description"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="background-color">Background Color:</label>
+          <input type="color" id="background-color" value="#ffffff">
+        </div>
+
+        <div class="form-group">
+          <label for="font-color">Font Color:</label>
+          <input type="color" id="font-color" value="#000000">
+        </div>
+
+        <fieldset>
+          <legend>Add Input Fields</legend>
+          <div class="form-group">
+            <label><input type="checkbox" id="input-first-name"> First Name</label>
+          </div>
+          <div class="form-group">
+            <label><input type="checkbox" id="input-last-name"> Last Name</label>
+          </div>
+          <div class="form-group">
+            <label><input type="checkbox" id="input-contact-info"> Contact Info</label>
+          </div>
+          <div class="form-group">
+            <label><input type="checkbox" id="input-mail-id"> Mail ID</label>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <script src="Task5.js"></script>
+</body>
+</html>

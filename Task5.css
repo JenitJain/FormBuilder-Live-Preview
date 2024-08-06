@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  #preview-container, #form-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  #preview-container {
+    border-right: 2px solid #ccc;
+  }
+  
+  #form-container {
+    background-color: #f9f9f9;
+  }
+  
+  #form-editor .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #form-editor label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #form-editor input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #form-editor textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #form-editor input[type="color"]{
+    width: 30%;
+    padding: 1px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #form-editor input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #form-editor input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #form-editor textarea {
+    resize: vertical;
+  }
+  
+  #form-editor fieldset {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #form-editor fieldset legend {
+    font-weight: bold;
+  }
+  
+  #preview-inputs label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #preview-inputs input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: inherit;
+  }
+  
